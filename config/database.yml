@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: app_opswork_production
-  username: app_opswork
+  database: testApp_production
+  username: pgadmin
   password: <%= ENV['APP_OPSWORK_DATABASE_PASSWORD'] %>
